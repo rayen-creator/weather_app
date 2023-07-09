@@ -6,24 +6,19 @@ import WeatherList from './components/weatherList'
 function App() {
 
   return (
-
-    <div className='flex bg-hero-pattern  bg-cover '>
+    <div className='block lg:flex  bg-hero-pattern h-screen w-screen bg-cover '>
       <div className="flex-1 h-screen flex flex-col justify-end">
         <TimeDate />
         <div className="mt-auto mx-5">
           <div className='flex flex-row justify-end mb-10'>
-          <h1 className="text-white text-8xl">Heavy Rain</h1>
-
+            <h1 className=" text-transparent bg-clip-text bg-gradient-to-t from-gray-500 to-white text-6xl lg:text-8xl">Heavy Rain</h1>
           </div>
           <div className='border my-5 border-gray-400 '></div>
-          <WeatherList/>
+          <WeatherList />
         </div>
       </div>
-
       <Rightbar />
-
     </div>
-
   )
 }
 

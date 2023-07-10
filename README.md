@@ -33,3 +33,6 @@ Run project using vite
 ```javascript
 $ npm run dev
 ```
+## 🖥 Demo
+The app is deployed on [netlify](https://weatherweeeebappp.netlify.app/) 
+

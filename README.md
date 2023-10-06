@@ -16,7 +16,7 @@ Make sure you have nodejs installed
 1- clone project
 
 ```bash
-  $ git clone https://github.com/rayen-creator/weather_app
+  $ git clone https://github.com/rayen-creator/weather_app.git
 ```
 
 2- Install npm packages
